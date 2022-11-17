@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="app" type="NodeJSConfigurationType" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeStartBrowserRunConfigurationExtension">
+      <browser url="http://localhost:3000/" />
+    </EXTENSION>
+    <envs>
+      <env name="DEBUG" value="bot-de-discord:*" />
+    </envs>
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="deploy" run_configuration_type="NodeJSConfigurationType" />
+    </method>
+  </configuration>
+</component>
